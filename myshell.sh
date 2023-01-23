@@ -1,9 +1,11 @@
 #!/bin/bash
 
+language="Korean"
+
 function print() {
 
-	echo $1
+	echo "I can speak $language"
 
 }
 
-print "I can speak Korean"
+print
