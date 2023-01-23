@@ -2,10 +2,22 @@
 
 language="Korean"
 
-function print() {
+# 지역 변수 선언
+function learn() {
 
-	echo "I can speak $language"
+	local learn_language="English"
+	echo "I am learning $learn_language"
 
 }
 
-print
+# 지역 변수 출력 불가
+function print() {
+
+	echo "I can speak $1"
+
+}
+
+
+learn
+print $language
+print $learn_language
