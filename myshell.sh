@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "hello world"
+language="Korean"
+
+echo "I can speak $language"
