@@ -1,1 +1,1 @@
-# Linux_Shell_Study
+# 처음 배우는 쉘 스크립트
